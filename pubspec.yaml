@@ -1,0 +1,15 @@
+name: corsac_startd
+description: Isolate-based service control and management.
+version: 0.0.1
+author: Anatoly Pulyaevskiy <anatoly.pulyaevskiy@gmail.com>
+homepage: https://github.com/corsac-dart/startd
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  isolate: any
+  logging: any
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
